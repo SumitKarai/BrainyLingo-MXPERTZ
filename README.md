@@ -1,12 +1,34 @@
-# React + Vite
+# 🌌 BrainyLingo — Science Fiction Stories Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based web application for browsing and exploring **Science Fiction Stories**. The app fetches story data from a remote API and displays it in a user-friendly card layout with pagination, filters, and detailed views using tabs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📚 Fetch & display stories from public API
+- 🎴 Card-based UI for each story with image, title, and status
+- 🔍 Detailed story view with multiple tabs (`WordExplore`, `Synonyms`, `Antonyms`, etc.)
+- 📄 Pagination (8 cards per page)
+- 🔗 Navbar filters (`New`, `In Progress`, `Completed`, `Clear All`)
+- 🌊 Beautiful UI with wave effect under navbar
+- 👤 Sign-out button with branding (BrainyLingo)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **React Router DOM** for routing
+- **CSS (Custom)** – no Tailwind or Bootstrap
+- **REST API** – `https://mxpertztestapi.onrender.com/api/sciencefiction`
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/sumitkarai/science-fiction-stories.git
+cd science-fiction-stories
+npm install
+npm start
