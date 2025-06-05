@@ -1,0 +1,92 @@
+.navbar-wrapper{
+  background-image: url('/src/assets/gameimg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  /* background: linear-gradient(135deg, #28039f, #bc07e0); */
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.navbar-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #09092e;
+  clip-path: polygon(
+    10% 60%, 10% 60%, 20% 70%, 30% 80%, 40% 90%,
+    50% 100%, 60% 90%, 70% 80%, 80% 70%, 90% 60%, 100% 50%,
+    100% 100%, 0 100%
+  );
+  z-index: 2;
+}
+
+.logo-container{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container button {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+ border-radius: 50px;
+ padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/* background: linear-gradient(135deg, #28039f, #bc07e0); */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+  color: white;
+}
+.navbar h1 {
+  padding: 20px ;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content:space-evenly;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: transform 0.2s ease;
+  color: white;
+}
+
+.nav-links li a:hover {
+  transform: scale(1.05);
+}
+
+/* Individual Link Colors */
+.nav-links li .new-link {
+  background-color: #007bff; /* Blue */
+}
+
+.nav-links li .inprogress-link {
+  background-color: #f4c430; /* Yellow */
+  color: #333;
+}
+
+.nav-links li .completed-link {
+  background-color: #38f16f; /* Green */
+}
+
+.nav-links li .clearall-link {
+  background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient Blue */
+}

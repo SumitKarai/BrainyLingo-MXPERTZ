@@ -1,0 +1,104 @@
+.story-details-wrapper{
+  background-color: #09092e;
+}
+.story-details-container {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #09092e;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    padding: 8px 14px;
+    background: linear-gradient(135deg, #00c6ff, #bc07e0);
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .story-details-title {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 16px;
+  }
+  
+  .story-main-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .story-status {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .word-section {
+    margin-top: 40px;
+    
+  }
+  
+  .word-card {
+    margin-bottom: 25px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #28039f, #bc07e0);
+  }
+  
+  .word-card h3 {
+    margin: 0 0 8px 0;
+    color: white;
+  }
+  
+  .word-card p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .word-image {
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+    margin: 10px 0;
+  }
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    border: 1px solid #007bff;
+    background: linear-gradient(135deg, #00c6ff, #bc07e0);
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+  
+  .tab-btn.active,
+  .tab-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .tab-content {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+  

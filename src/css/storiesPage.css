@@ -1,0 +1,90 @@
+.stories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    background-color: #09092e;
+    min-height: 100vh;
+  }
+  
+  .story-card {
+    width: 280px;
+    background: linear-gradient(435deg, #0ab1ee, #190879);
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .story-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .story-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .story-content {
+    padding: 10px;
+  }
+  
+  .story-content h3 {
+    font-size: 18px;
+    color: white;
+    margin: 0 0 8px 0;
+  }
+  
+  .story-content p {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 12px 0;
+  }
+  .status-btn{
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: blue;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .pagination {
+   padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    background-color: #09092e;
+  }
+  
+  .pagination button {
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pagination button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
